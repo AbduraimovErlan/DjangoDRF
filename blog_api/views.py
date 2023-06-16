@@ -12,7 +12,11 @@ class PostList(generics.ListCreateAPIView):
     pass
 
 
+<<<<<<< HEAD
 class PostDetail(generics.RetrieveUpdateDestroyAPIView):
+=======
+class PostDetail(generics.RetrieveAPIView):
+>>>>>>> origin/master
     queryset = Post.objects.all()
     serializer_class = PostSerializer
 
